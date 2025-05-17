@@ -1,0 +1,70 @@
+.card-hover {
+	transition: 0.3s ease-in-out;
+	box-shadow: 0.2s ease-in-out;
+	cursor: pointer;
+	display: block;
+	& svg {
+		fill: var(--tc-neutral-400);
+	}
+	.ic-arrow i {
+		transition: all 0.2s;
+	}
+	&:hover {
+		transform: translateY(-0.25rem);
+		box-shadow:
+			0 10px 15px -3px rgba(0, 0, 0, 0.1),
+			0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+		span {
+			border-color: var(--tc-theme-primary) !important;
+		}
+		.card-text {
+			color: var(--tc-theme-primary);
+		}
+		& svg {
+			fill: var(--tc-theme-primary);
+		}
+		.ic-arrow i {
+			transform: rotate(-45deg);
+			transition: all 0.2s;
+		}
+	}
+}
+.hover-up {
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		transform: translateY(-3px);
+		transition-duration: 0.3s;
+	}
+}
+.hover-down {
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		transform: translateY(3px);
+		transition-duration: 0.3s;
+	}
+}
+.card-lift {
+	transition:
+		transform 0.2s ease-in-out,
+		border-color 0.2s ease-in-out,
+		background-color 0.2s ease-in-out,
+		box-shadow 0.2s ease-in-out;
+	border-radius: 0.75rem;
+	&:hover,
+	&:focus,
+	&.active {
+		transform: translateY(-0.25rem);
+		box-shadow:
+			0 10px 15px -3px rgba(0, 0, 0, 0.1),
+			0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+	}
+	&:hover {
+		.icon-shape img {
+			transform: rotateY(360deg);
+			transition: 0.3s linear;
+		}
+	}
+	.icon-shape img {
+		transition: 0.3s linear;
+	}
+}

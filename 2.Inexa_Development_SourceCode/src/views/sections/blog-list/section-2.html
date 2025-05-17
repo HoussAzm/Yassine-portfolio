@@ -1,0 +1,159 @@
+<!--blog list-->
+<section class="section-padding">
+	<div class="text-center">
+		<span class="text-primary text-uppercase fs-7 px-2 py-1 border border-primary-1 rounded-3">Hot trend</span>
+		<h1 class="ds-5">Featured News Today</h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<!-- prettier-ignore -->
+			@@loop('../../partials/loop/blog-card.html', [
+                {
+                    "img": "assets/imgs/background/img-news-blog-1.png",
+                    "category": "web design",
+                    "author": "John Smith",
+                    "date": "Oct 12, 2024",
+                    "title": "Top Trends in Web Design for 2024: What You Need to Know"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-2.png",
+                    "category": "graphic design",
+                    "author": "Emily Davis",
+                    "date": "Sep 30, 2024",
+                    "title": "Mastering the Basics of Graphic Design: A Comprehensive Guide"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-3.png",
+                    "category": "ux/ui",
+                    "author": "Michael Brown",
+                    "date": "Aug 15, 2024",
+                    "title": "UX/UI Design Principles for Modern Apps: Enhancing User Experience"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-4.png",
+                    "category": "branding",
+                    "author": "Jessica Wilson",
+                    "date": "Jul 22, 2024",
+                    "title": "Building a Strong Brand Identity: Strategies and Tips"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-5.png",
+                    "category": "digital art",
+                    "author": "David Clark",
+                    "date": "Jun 18, 2024",
+                    "title": "Digital Art Techniques for Beginners: Getting Started with Confidence"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-6.png",
+                    "category": "illustration",
+                    "author": "Sophia Martinez",
+                    "date": "May 10, 2024",
+                    "title": "Creating Stunning Illustrations: Tips and Tricks for Aspiring Artists"
+                }
+            ]
+        
+            )
+		</div>
+		<div class="text-center my-10">
+			<img src="assets/imgs/background/img-news-banner.png" alt="inexa" />
+		</div>
+		<div class="row">
+			<!-- prettier-ignore -->
+			@@loop('../../partials/loop/blog-card.html', [
+                {
+                    "img": "assets/imgs/background/img-news-blog-7.png",
+                    "category": "typography",
+                    "author": "Oliver Green",
+                    "date": "Dec 5, 2024",
+                    "title": "The Impact of Typography in Modern Design"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-8.png",
+                    "category": "animation",
+                    "author": "Samantha Lee",
+                    "date": "Nov 28, 2024",
+                    "title": "Creating Engaging Animations for Web and Mobile"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-9.png",
+                    "category": "color theory",
+                    "author": "Brian Scott",
+                    "date": "Nov 15, 2024",
+                    "title": "Understanding Color Theory: A Guide for Designers"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-10.png",
+                    "category": "photography",
+                    "author": "Laura Adams",
+                    "date": "Nov 10, 2024",
+                    "title": "Photography Tips for Designers: Enhancing Your Visual Content"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-11.png",
+                    "category": "web accessibility",
+                    "author": "Daniel Harris",
+                    "date": "Nov 3, 2024",
+                    "title": "Making Your Website Accessible: Best Practices for Designers"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-12.png",
+                    "category": "branding",
+                    "author": "Megan Foster",
+                    "date": "Oct 25, 2024",
+                    "title": "The Importance of Consistent Branding in Design"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-13.png",
+                    "category": "illustration",
+                    "author": "Nathaniel Wright",
+                    "date": "Oct 18, 2024",
+                    "title": "Innovative Illustration Techniques for Digital Artists"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-14.png",
+                    "category": "graphic design",
+                    "author": "Olivia Parker",
+                    "date": "Oct 8, 2024",
+                    "title": "Graphic Design Trends to Watch in 2024"
+                },
+                {
+                    "img": "assets/imgs/background/img-news-blog-15.png",
+                    "category": "ux/ui",
+                    "author": "Ethan Bennett",
+                    "date": "Sep 30, 2024",
+                    "title": "The Future of UX/UI Design: What to Expect"
+                }
+            ])
+		</div>
+		<div class="row pt-5 text-center">
+			<div class="d-flex justify-content-center">
+				<nav aria-label="Page navigation example">
+					<ul class="pagination gap-2">
+						<li class="page-item">
+							<a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#" aria-label="Previous"
+								><i class="bi bi-chevron-left"></i
+							></a>
+						</li>
+						<li class="page-item">
+							<a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">1</a>
+						</li>
+						<li class="page-item">
+							<a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">2</a>
+						</li>
+						<li class="page-item">
+							<a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">3</a>
+						</li>
+						<li class="page-item">
+							<a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">...</a>
+						</li>
+						<li class="page-item">
+							<a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#" aria-label="Next"
+								><i class="bi bi-chevron-right"></i
+							></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>

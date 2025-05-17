@@ -1,0 +1,29 @@
+<!-- Navbar -->
+<header>
+	<nav class="navbar navbar-expand-lg py-0 z-5 tcmenu__wrap">
+		<div class="d-flex p-4 p-lg-0 custom-container mx-auto justify-content-between align-items-center w-100">
+			<a
+				class="navbar-brand fw-bold"
+				href="javascript:void(0)"
+				data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasWithBothOptions"
+				aria-controls="offcanvasWithBothOptions"
+			>
+				<i class="bi bi-list text-primary"></i>
+				Menu
+			</a>
+			<div class="tcmenu__navbar-wrap tcmenu__main-menu d-none d-lg-flex">@@include("main-menu-2.html")</div>
+			<div class="d-flex align-items-center me-lg-4 gap-4">
+				@@include("dark-light-switcher.html")
+				<a href="get-quote.html" class="menu-tigger btn btn-outline-secondary d-none d-md-block"> Let’s Talk </a>
+				<!--Mobile-->
+				<div class="mobile-nav-toggler  d-lg-none rounded-circle bg-primary icon-shape icon-lg">
+					<img src="assets/imgs/icon/dot-menu.png" alt="inexa" />
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- prettier-ignore -->
+	@@include("mobi-menu.html")
+	@@include("offcanvas.html")
+</header>

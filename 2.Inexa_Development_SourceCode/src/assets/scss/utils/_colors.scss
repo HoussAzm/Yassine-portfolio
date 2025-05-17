@@ -1,0 +1,86 @@
+$colors: (
+	theme: (
+		primary: #8054ff,
+		primary-rgb: #8054ff33,
+		primary-dark: #5d2fdf,
+		primary-light: #d8cbff,
+		secondary: #666666,
+		secondary-1: #f0f4e9,
+		heading: #222222,
+		body: #666666,
+	),
+	neutral: (
+		0: #ffffff,
+		50: #eaeaea,
+		100: #d5d5d5,
+		200: #ababab,
+		300: #808080,
+		400: #565656,
+		500: #2c2c2c,
+		600: #212121,
+		700: #161616,
+		800: #0b0b0b,
+		900: #060606,
+		1000: #222222,
+	),
+	border: (
+		1: #e6e6e6,
+		2: #e6e7f3,
+	),
+	bg: (
+		1: #f0f4e9,
+	),
+	gradient: (
+		1: linear-gradient(180deg, #ffffff 0%, #f0f4e9 100%),
+		2: linear-gradient(90deg, #ffffff 0%, #f0f4e9 100%),
+		3: -webkit-linear-gradient(top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 1)),
+		4: -webkit-linear-gradient(bottom, rgba(34, 34, 34, 1), rgba(153, 153, 153, 1)),
+		5: -webkit-linear-gradient(top, rgba(111, 66, 193, 1), rgba(255, 255, 255, 1)),
+	),
+	shadow: (
+		1: 0px 30px 60px 0px rgba(0, 0, 0, 0.06),
+	),
+	//DARK Mode
+	theme-dark:
+		(
+			primary: #8054ff,
+			primary-rgb: #8054ff33,
+			primary-dark: #351a80,
+			primary-light: #d8cbff,
+			secondary: #666666,
+			secondary-1: #1c1e19,
+			heading: #8a8c85,
+			body: #666666,
+		),
+	neutral-dark: (
+		1000: #ffffff,
+		900: #eaeaea,
+		800: #d5d5d5,
+		700: #ababab,
+		600: #808080,
+		500: #565656,
+		400: #2c2c2c,
+		300: #212121,
+		200: #161616,
+		100: #0b0b0b,
+		50: #060606,
+		0: #161714,
+	),
+	border-dark: (
+		1: #353831,
+		2: #2f312c,
+	),
+	bg-dark: (
+		1: #1c1e19,
+	),
+	gradient-dark: (
+		1: linear-gradient(180deg, rgb(22, 23, 20, 1) 0%, rgb(23, 24, 23) 100%),
+		2: linear-gradient(90deg, rgb(22, 23, 20, 1) 0%, rgb(23, 24, 23) 100%),
+		3: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(28, 30, 25, 0)),
+		4: -webkit-linear-gradient(bottom, rgba(153, 153, 153, 1), rgba(34, 34, 34, 1)),
+		5: -webkit-linear-gradient(top, rgba(111, 66, 193, 1), rgba(34, 34, 34, 1)),
+	),
+	shadow-dark: (
+		1: 0px 30px 60px 0px rgba(0, 0, 0, 0.06),
+	),
+);

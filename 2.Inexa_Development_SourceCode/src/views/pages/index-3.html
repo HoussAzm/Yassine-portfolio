@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  @@include("../partials/head-links.html", {"title": "Inexa - Personal Portfolio Bootstrap 5 Template"})
+</head>
+
+<body class="magic-cursor position-relative">
+  @@include("../partials/custom-cursor.html") @@include("../partials/preloader.html") @@include("../partials/header-3.html",{ "classList": "navbar-light w-100" })
+  <main class="overflow-hidden">
+    @@include("../sections/home3/section-1.html") @@include("../sections/home3/section-2.html") @@include("../sections/home3/section-3.html")
+    @@include("../sections/home3/section-4.html") @@include("../sections/home3/section-5.html") @@include("../sections/home3/section-6.html")
+    @@include("../sections/home3/section-7.html") @@include("../sections/home3/section-8.html")
+  </main>
+  @@include("../partials/footer-3.html") @@include("../partials/btn-scroll-top.html") @@include("../partials/scripts.html")
+  <!-- Other scripts -->
+</body>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        content.style.borderBottom = "none";
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        content.style.borderBottom = "1px solid var(--tc-theme-primary)";
+      }
+    });
+  }
+</script>
+
+</html>

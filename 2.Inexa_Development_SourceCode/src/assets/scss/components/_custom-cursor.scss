@@ -1,0 +1,26 @@
+.cursor {
+    position: fixed;
+    z-index: 9999999;
+    pointer-events: none;
+    span.dot {
+        position: fixed;
+        width: 0.5em;
+        height: 0.5em;
+        border-radius: 50%;
+        background-color: #707070;
+        pointer-events: none;
+        mix-blend-mode: difference;
+    }
+}
+.follower {
+	pointer-events: none;
+	position: fixed;
+	transition: all 0.09s ease;
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 50%;
+	background-color: transparent;
+	mix-blend-mode: difference;
+	border: 1px solid #707070;
+	z-index: 9999999;
+}
